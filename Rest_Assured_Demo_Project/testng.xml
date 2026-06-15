@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.tests.SeleniumTest"/>
+      <class name="com.tests.CreateUser"/>
+      <class name="com.tests.GetUser"/>
+      <class name="com.tests.ApiValidation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
