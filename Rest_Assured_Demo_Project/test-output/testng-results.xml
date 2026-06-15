@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-15T15:41:26 IST" name="Default suite" finished-at="2026-06-15T15:41:31 IST" duration-ms="4566">
+  <suite started-at="2026-06-15T21:14:05 IST" name="Default suite" finished-at="2026-06-15T21:14:31 IST" duration-ms="25417">
     <groups>
     </groups>
-    <test started-at="2026-06-15T15:41:26 IST" name="Default test" finished-at="2026-06-15T15:41:31 IST" duration-ms="4566">
-      <class name="com.tests.ApiValidation">
-        <test-method signature="getApi()[pri:0, instance:com.tests.ApiValidation@78fa769e]" started-at="2026-06-15T15:41:26 IST" name="getApi" finished-at="2026-06-15T15:41:31 IST" duration-ms="4353" status="PASS">
+    <test started-at="2026-06-15T21:14:05 IST" name="Default test" finished-at="2026-06-15T21:14:31 IST" duration-ms="25417">
+      <class name="com.tests.OptionsMethod">
+        <test-method signature="optionsRequest()[pri:0, instance:com.tests.OptionsMethod@78fa769e]" started-at="2026-06-15T21:14:05 IST" name="optionsRequest" finished-at="2026-06-15T21:14:31 IST" duration-ms="25207" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getApi -->
-      </class> <!-- com.tests.ApiValidation -->
+        </test-method> <!-- optionsRequest -->
+      </class> <!-- com.tests.OptionsMethod -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
