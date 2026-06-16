@@ -5,14 +5,15 @@
     <classes>
       <class name="com.test.UpdateTrainee"/>
       <class name="com.test.OptionMethod"/>
+      <class name="com.test.TutorialNinjaLogin"/>
       <class name="com.test.InvalidTrainee"/>
       <class name="com.test.CreateTrainee"/>
       <class name="com.test.HeadMethod"/>
       <class name="com.test.GetTrainee"/>
       <class name="com.test.InvalidLogin"/>
       <class name="com.test.LoginTest"/>
-      <class name="com.test.PatchChangeDetail"/>
       <class name="com.test.DeleteMethod"/>
+      <class name="com.test.PatchChangeDetail"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

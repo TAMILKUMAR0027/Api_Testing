@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-16T16:04:06 IST" name="Default suite" finished-at="2026-06-16T16:04:09 IST" duration-ms="2779">
+  <suite started-at="2026-06-16T16:52:54 IST" name="Default suite" finished-at="2026-06-16T16:53:02 IST" duration-ms="8030">
     <groups>
     </groups>
-    <test started-at="2026-06-16T16:04:06 IST" name="Default test" finished-at="2026-06-16T16:04:09 IST" duration-ms="2779">
-      <class name="com.test.OptionMethod">
-        <test-method signature="getOption()[pri:0, instance:com.test.OptionMethod@78fa769e]" started-at="2026-06-16T16:04:06 IST" name="getOption" finished-at="2026-06-16T16:04:09 IST" duration-ms="2591" status="PASS">
+    <test started-at="2026-06-16T16:52:54 IST" name="Default test" finished-at="2026-06-16T16:53:02 IST" duration-ms="8030">
+      <class name="com.test.TutorialNinjaLogin">
+        <test-method signature="validLogin()[pri:0, instance:com.test.TutorialNinjaLogin@4e0ae11f]" started-at="2026-06-16T16:52:54 IST" name="validLogin" finished-at="2026-06-16T16:53:02 IST" duration-ms="7863" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getOption -->
-      </class> <!-- com.test.OptionMethod -->
+        </test-method> <!-- validLogin -->
+      </class> <!-- com.test.TutorialNinjaLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
