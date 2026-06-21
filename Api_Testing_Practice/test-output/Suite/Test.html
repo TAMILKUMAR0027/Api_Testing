@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 21 13:02:14 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>91 seconds (91500 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tests.LoginTest.validLogin()'><b>validLogin</b><br>Test class: com.tests.LoginTest<br>Parameters: sam@gmail.com, 123, 201, valid</td>
+<td></td>
+<td>3</td>
+<td>com.tests.LoginTest@415b0b49</td></tr>
+<tr>
+<td title='com.tests.GetRolesTest.getAllRoleswithoutToken()'><b>getAllRoleswithoutToken</b><br>Test class: com.tests.GetRolesTest</td>
+<td></td>
+<td>0</td>
+<td>com.tests.GetRolesTest@f58853c</td></tr>
+<tr>
+<td title='com.tests.HealthCheckGet.healthCheck()'><b>healthCheck</b><br>Test class: com.tests.HealthCheckGet</td>
+<td></td>
+<td>0</td>
+<td>com.tests.HealthCheckGet@6d5620ce</td></tr>
+<tr>
+<td title='com.tests.GetNoteById.getNoteByInvalidId()'><b>getNoteByInvalidId</b><br>Test class: com.tests.GetNoteById</td>
+<td></td>
+<td>4</td>
+<td>com.tests.GetNoteById@49b2a47d</td></tr>
+<tr>
+<td title='com.tests.LoginTest.invalidEmailLogin()'><b>invalidEmailLogin</b><br>Test class: com.tests.LoginTest<br>Parameters: make@gmail.com, 123, 400, Email is invalid</td>
+<td></td>
+<td>0</td>
+<td>com.tests.LoginTest@415b0b49</td></tr>
+<tr>
+<td title='com.tests.DeleteNote.deleteNoteById()'><b>deleteNoteById</b><br>Test class: com.tests.DeleteNote</td>
+<td></td>
+<td>6</td>
+<td>com.tests.DeleteNote@311bf055</td></tr>
+<tr>
+<td title='com.tests.CreateNotesTest.postNewNotes()'><b>postNewNotes</b><br>Test class: com.tests.CreateNotesTest</td>
+<td></td>
+<td>5</td>
+<td>com.tests.CreateNotesTest@642a7222</td></tr>
+<tr>
+<td title='com.tests.GetAllNotesQP.getAllNotesUsingQueryParameter()'><b>getAllNotesUsingQueryParameter</b><br>Test class: com.tests.GetAllNotesQP</td>
+<td></td>
+<td>5</td>
+<td>com.tests.GetAllNotesQP@5be1d0a4</td></tr>
+<tr>
+<td title='com.tests.DeleteNote.deleteNoteWithInvalidIdFormat()'><b>deleteNoteWithInvalidIdFormat</b><br>Test class: com.tests.DeleteNote</td>
+<td></td>
+<td>4</td>
+<td>com.tests.DeleteNote@311bf055</td></tr>
+<tr>
+<td title='com.tests.EndToEndTest.notesEndToEndFlow()'><b>notesEndToEndFlow</b><br>Test class: com.tests.EndToEndTest</td>
+<td></td>
+<td>12</td>
+<td>com.tests.EndToEndTest@2fb0623e</td></tr>
+<tr>
+<td title='com.tests.LoginTest.invalidPasswordLogin()'><b>invalidPasswordLogin</b><br>Test class: com.tests.LoginTest<br>Parameters: sam@gmail.com, 143, 400, Password is incorrect</td>
+<td></td>
+<td>3</td>
+<td>com.tests.LoginTest@415b0b49</td></tr>
+<tr>
+<td title='com.tests.GetNoteById.getNoteSpecificById()'><b>getNoteSpecificById</b><br>Test class: com.tests.GetNoteById</td>
+<td></td>
+<td>6</td>
+<td>com.tests.GetNoteById@49b2a47d</td></tr>
+<tr>
+<td title='com.tests.GetRolesTest.getAllRoleswithToken()'><b>getAllRoleswithToken</b><br>Test class: com.tests.GetRolesTest</td>
+<td></td>
+<td>9</td>
+<td>com.tests.GetRolesTest@f58853c</td></tr>
+<tr>
+<td title='com.tests.GetAllCourseStructureTest.getAllCourse()'><b>getAllCourse</b><br>Test class: com.tests.GetAllCourseStructureTest</td>
+<td></td>
+<td>6</td>
+<td>com.tests.GetAllCourseStructureTest@565f390</td></tr>
+<tr>
+<td title='com.tests.GetInstitutionTest.getAllInstitution()'><b>getAllInstitution</b><br>Test class: com.tests.GetInstitutionTest</td>
+<td></td>
+<td>0</td>
+<td>com.tests.GetInstitutionTest@5e3f861</td></tr>
+<tr>
+<td title='com.tests.LoginTest.invalidLeaveEmptyFieldLogin()'><b>invalidLeaveEmptyFieldLogin</b><br>Test class: com.tests.LoginTest<br>Parameters: , , 400, All fields are required</td>
+<td></td>
+<td>0</td>
+<td>com.tests.LoginTest@415b0b49</td></tr>
+<tr>
+<td title='com.tests.UpdateNote.updateNoteById()'><b>updateNoteById</b><br>Test class: com.tests.UpdateNote</td>
+<td></td>
+<td>9</td>
+<td>com.tests.UpdateNote@7dc3712</td></tr>
+<tr>
+<td title='com.tests.TooglePinNote.togglePinNoteById()'><b>togglePinNoteById</b><br>Test class: com.tests.TooglePinNote</td>
+<td></td>
+<td>6</td>
+<td>com.tests.TooglePinNote@2f67a4d3</td></tr>
+<tr>
+<td title='com.tests.GetInstitutionTest.getAllInstitution_InvalidEndpoint()'><b>getAllInstitution_InvalidEndpoint</b><br>Test class: com.tests.GetInstitutionTest</td>
+<td></td>
+<td>1</td>
+<td>com.tests.GetInstitutionTest@5e3f861</td></tr>
+</table><p>
+</body>
+</html>
